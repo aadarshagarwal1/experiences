@@ -12,54 +12,44 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <App />,
-    children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
-      {
-        path: "/home",
-        element: <Home />,
-      },
-      {
-        path: "/place-1",
-        element: <ContentPage id={1} />,
-      },
-      {
-        path: "/place-2",
-        element: <ContentPage id={2} />,
-      },
-      {
-        path: "/place-3",
-        element: <ContentPage id={3} />,
-      },
-      {
-        path: "/place-4",
-        element: <ContentPage id={4} />,
-      },
-      {
-        path: "/place-5",
-        element: <ContentPage id={5} />,
-      },
-      {
-        path: "/place-6",
-        element: <ContentPage id={6} />,
-      },
-      {
-        path: "/place-7",
-        element: <ContentPage id={7} />,
-      },
-    ],
-  },
-  {
     path: "/experiences/",
     element: <App />,
     children: [
       {
-        path: "/",
+        path: "/experiences/",
         element: <Home />,
+      },
+      {
+        path: "/experiences/home",
+        element: <Home />,
+      },
+      {
+        path: "/experiences/place-1",
+        element: <ContentPage id={1} />,
+      },
+      {
+        path: "/experiences/place-2",
+        element: <ContentPage id={2} />,
+      },
+      {
+        path: "/experiences/place-3",
+        element: <ContentPage id={3} />,
+      },
+      {
+        path: "/experiences/place-4",
+        element: <ContentPage id={4} />,
+      },
+      {
+        path: "/experiences/place-5",
+        element: <ContentPage id={5} />,
+      },
+      {
+        path: "/experiences/place-6",
+        element: <ContentPage id={6} />,
+      },
+      {
+        path: "/experiences/place-7",
+        element: <ContentPage id={7} />,
       },
     ],
   },

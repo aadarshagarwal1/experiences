@@ -19,7 +19,7 @@ const header = (props) => {
             style={{ justifyContent: "space-between" }}
           >
             <Link
-              to="/"
+              to="/experiences/"
               className="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none"
             >
               <div className="website-title" style={{ color: color }}>

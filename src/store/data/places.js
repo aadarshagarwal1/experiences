@@ -19,7 +19,7 @@ const places = createSlice({
         "image (8).jpg",
       ],
       mapLink: "",
-      link: "/place-1",
+      link: "/experiences/place-1",
     },
     {
       id: 2,
@@ -37,7 +37,7 @@ const places = createSlice({
         "image (8).jpg",
       ],
       mapLink: "",
-      link: "/place-2",
+      link: "/experiences/place-2",
     },
     {
       id: 3,
@@ -55,7 +55,7 @@ const places = createSlice({
         "image (8).jpg",
       ],
       mapLink: "",
-      link: "/place-3",
+      link: "/experiences/place-3",
     },
     {
       id: 4,
@@ -73,7 +73,7 @@ const places = createSlice({
         "image (8).jpg",
       ],
       mapLink: "",
-      link: "/place-4",
+      link: "/experiences/place-4",
     },
     {
       id: 5,
@@ -91,7 +91,7 @@ const places = createSlice({
         "image (8).jpg",
       ],
       mapLink: "",
-      link: "/place-5",
+      link: "/experiences/place-5",
     },
     {
       id: 6,
@@ -109,7 +109,7 @@ const places = createSlice({
         "image (8).jpg",
       ],
       mapLink: "",
-      link: "/place-6",
+      link: "/experiences/place-6",
     },
     {
       id: 7,
@@ -127,7 +127,7 @@ const places = createSlice({
         "image (7).jpg",
       ],
       mapLink: "",
-      link: "/place-7",
+      link: "/experiences/place-7",
     },
   ],
 });

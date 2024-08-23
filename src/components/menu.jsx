@@ -24,7 +24,7 @@ export default function menu() {
     <div className={`menu ${menuSlice.value}`}>
       <div className="menu-options">
         <Link
-          to={"/home"}
+          to={"/experiences/home"}
           style={{ textDecoration: "none", color: "white" }}
           onClick={() => {
             dispatch(menuSliceActions.changeValue());
