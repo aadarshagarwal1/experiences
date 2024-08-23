@@ -1,0 +1,122 @@
+.card {
+  height: 34rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50rem;
+  gap: 2%;
+  border: none !important;
+  margin: auto;
+  margin-bottom: 6rem;
+}
+.card-imgWrapper {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hover-details-button {
+  position: absolute;
+  z-index: 2;
+  background-color: var(--primary-color);
+  right: 0;
+  writing-mode: vertical-rl;
+  text-align: center;
+  height: 100%;
+  color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  letter-spacing: 5px;
+  width: 3.5rem;
+  transform: translateX(100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  transition: transform 300ms ease-in-out;
+}
+
+.card-imgWrapper:hover .hover-details-button {
+  transform: translateX(0);
+}
+.card-imgWrapper:hover .hover-details-button > a {
+  opacity: 1;
+}
+
+.hover-details-button > a {
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  animation: fade-in 1000ms 500ms ease-in-out;
+  transition: letter-spacing 200ms ease-in-out, opacity 500ms 400ms ease-in-out;
+  opacity: 0;
+}
+
+.hover-details-button > a:hover {
+  font-weight: bold;
+  letter-spacing: 6px;
+}
+
+.card-imgContainer {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & > img {
+    height: 100%;
+  }
+}
+.card-details {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  & > p {
+    margin: 0;
+    text-align: center;
+  }
+}
+.card-heading {
+  font-size: 2em;
+  letter-spacing: 3px;
+  word-spacing: 5px;
+  line-height: 2rem;
+  text-transform: uppercase;
+}
+.card-content {
+  font-size: 1rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.card-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.334);
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1.6px;
+  word-spacing: 2.8px;
+  transition: all 300ms;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(128, 128, 128, 0.5);
+  }
+}

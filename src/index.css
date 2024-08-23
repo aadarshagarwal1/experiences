@@ -1,0 +1,19 @@
+:root {
+  --primary-color: #647d8b; /* Your hex color code */
+}
+.heading-font {
+  font-family: "nimbusSan" !important;
+}
+.content-font {
+  font-family: "AdobeCaslon" !important;
+}
+.h-100vh {
+  height: 100vh;
+}
+.w-100vw {
+  width: 100vw;
+}
+.app {
+  height: fit-content;
+  overflow: hidden;
+}

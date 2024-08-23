@@ -1,0 +1,96 @@
+.menu {
+  position: fixed;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  left: 0;
+  z-index: 10000000000;
+  overflow: hidden;
+  width: 35vw;
+  padding-top: 8rem;
+  background-color: var(--primary-color);
+  font-family: "AdobeCaslon";
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 6rem;
+  transition: transform 800ms ease-in-out; /* Only specify the transform property */
+  opacity: 1;
+  transform: translateX(-100%);
+  display: flex;
+}
+
+.slide-in {
+  transform: translateX(0%);
+}
+
+.slide-out {
+  transform: translateX(-100%);
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+.menu-option {
+  font-size: 2.2rem;
+  line-height: 3.6rem;
+  color: rgba(255, 255, 255, 0.412);
+  transition: all 400ms;
+  letter-spacing: 2.5px;
+  &:hover {
+    color: white;
+    letter-spacing: 5px;
+  }
+}
+.menu-options {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.456);
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  animation: fade 2s ease-in-out;
+}
+.menu-option-home {
+  font-size: 2.2rem;
+  line-height: 4rem;
+  color: rgba(255, 255, 255, 0.359);
+  color: white;
+}
+.menu-footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  animation: fade 2s ease-in-out;
+}
+.menu-footer-heading {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+  letter-spacing: 1.5px;
+}
+.contact-info {
+  font-size: 0.8rem;
+  letter-spacing: 0.15rem;
+  margin-right: 1rem;
+  margin-bottom: 0;
+  font-weight: lighter;
+  color: rgb(223, 221, 221);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  line-height: 1.5rem;
+  transition: all 500ms;
+  &:hover {
+    letter-spacing: 3px;
+  }
+}

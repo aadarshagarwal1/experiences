@@ -1,0 +1,33 @@
+.hero-heading {
+  letter-spacing: 0.3rem;
+  color: var(--primary-color);
+  font-size: 2.5rem !important;
+  letter-spacing: 7px;
+  margin-bottom: 4rem !important;
+}
+.hero-content {
+  font-size: 1rem !important;
+  letter-spacing: 3px;
+  word-spacing: 4px;
+}
+.hero-dataBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  margin-bottom: 3rem;
+  gap: 0.7rem;
+  & > p {
+    margin: 0;
+  }
+}
+.hero-dataBlock-data {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.642);
+}
+.hero-dataBlock-tag {
+  height: 2rem;
+  color: var(--primary-color);
+  letter-spacing: 2px;
+}
