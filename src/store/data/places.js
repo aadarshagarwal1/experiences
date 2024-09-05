@@ -5,7 +5,7 @@ const places = createSlice({
   initialState: [
     {
       id: 1,
-      name: "PLACE ONE",
+      name: "BIT Canteen",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, iure illum alias repudiandae provident maiores aliquid unde facilis atque nobis ut assumenda consequatur possimus dolorum vero laborum obcaecati molestiae, voluptatibus sit odit nam labore dicta.Quisquam incidunt nemo itaque, commodi nostrum ipsa doloremque non provident beatae laboriosam! Debitis aut cum molestiae nesciunt neque distinctio inventore veniam soluta incidunt consequuntur delectus ab minus magni, aliquam, ullam blanditiis reprehenderit corrupti quis ducimus corporis ex iure itaque doloribus dolorum! Magnam earum nam fuga, inventore odit suscipit libero similique non soluta totam, eum, ipsa est voluptatum aliquam! Expedita, similique quos.Deleniti alias, nemo excepturi quia eveniet quaerat corrupti? Quaerat sit nam reprehenderit molestiae cupiditate ipsa corrupti molestias nobis similique ad nihil debitis nostrum libero, a sunt illo sed, nesciunt deserunt? Sapiente harum quam commodi doloribus recusandae, magnam id qui impedit praesentium iste eaque ipsum vero iure assumenda laudantium in.Labore expedita inventore sed adipisci amet magnam ullam aliquid.Aut, maxime officia.Doloremque explicabo ad fuga sint cupiditate, aperiam similique esse sit, tempora voluptatem voluptatibus, maxime quos commodi? Aspernatur commodi quasi consequuntur animi vel ab explicabo, unde consequatur voluptas.Cumque, beatae soluta nisi fugiat quisquam eveniet quod, ea maxime ratione in aperiam repellendus doloremque! Ipsum!",
       images: [
@@ -23,7 +23,7 @@ const places = createSlice({
     },
     {
       id: 2,
-      name: "PLACE TWO",
+      name: "Nescafé",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, iure illum alias repudiandae provident maiores aliquid unde facilis atque nobis ut assumenda consequatur possimus dolorum vero laborum obcaecati molestiae, voluptatibus sit odit nam labore dicta.Quisquam incidunt nemo itaque, commodi nostrum ipsa doloremque non provident beatae laboriosam! Debitis aut cum molestiae nesciunt neque distinctio inventore veniam soluta incidunt consequuntur delectus ab minus magni, aliquam, ullam blanditiis reprehenderit corrupti quis ducimus corporis ex iure itaque doloribus dolorum! Magnam earum nam fuga, inventore odit suscipit libero similique non soluta totam, eum, ipsa est voluptatum aliquam! Expedita, similique quos.Deleniti alias, nemo excepturi quia eveniet quaerat corrupti? Quaerat sit nam reprehenderit molestiae cupiditate ipsa corrupti molestias nobis similique ad nihil debitis nostrum libero, a sunt illo sed, nesciunt deserunt? Sapiente harum quam commodi doloribus recusandae, magnam id qui impedit praesentium iste eaque ipsum vero iure assumenda laudantium in.Labore expedita inventore sed adipisci amet magnam ullam aliquid.Aut, maxime officia.Doloremque explicabo ad fuga sint cupiditate, aperiam similique esse sit, tempora voluptatem voluptatibus, maxime quos commodi? Aspernatur commodi quasi consequuntur animi vel ab explicabo, unde consequatur voluptas.Cumque, beatae soluta nisi fugiat quisquam eveniet quod, ea maxime ratione in aperiam repellendus doloremque! Ipsum!",
       images: [
@@ -41,7 +41,7 @@ const places = createSlice({
     },
     {
       id: 3,
-      name: "PLACE THREE",
+      name: "Piya Milan Chowk",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, iure illum alias repudiandae provident maiores aliquid unde facilis atque nobis ut assumenda consequatur possimus dolorum vero laborum obcaecati molestiae, voluptatibus sit odit nam labore dicta.Quisquam incidunt nemo itaque, commodi nostrum ipsa doloremque non provident beatae laboriosam! Debitis aut cum molestiae nesciunt neque distinctio inventore veniam soluta incidunt consequuntur delectus ab minus magni, aliquam, ullam blanditiis reprehenderit corrupti quis ducimus corporis ex iure itaque doloribus dolorum! Magnam earum nam fuga, inventore odit suscipit libero similique non soluta totam, eum, ipsa est voluptatum aliquam! Expedita, similique quos.Deleniti alias, nemo excepturi quia eveniet quaerat corrupti? Quaerat sit nam reprehenderit molestiae cupiditate ipsa corrupti molestias nobis similique ad nihil debitis nostrum libero, a sunt illo sed, nesciunt deserunt? Sapiente harum quam commodi doloribus recusandae, magnam id qui impedit praesentium iste eaque ipsum vero iure assumenda laudantium in.Labore expedita inventore sed adipisci amet magnam ullam aliquid.Aut, maxime officia.Doloremque explicabo ad fuga sint cupiditate, aperiam similique esse sit, tempora voluptatem voluptatibus, maxime quos commodi? Aspernatur commodi quasi consequuntur animi vel ab explicabo, unde consequatur voluptas.Cumque, beatae soluta nisi fugiat quisquam eveniet quod, ea maxime ratione in aperiam repellendus doloremque! Ipsum!",
       images: [
@@ -59,7 +59,7 @@ const places = createSlice({
     },
     {
       id: 4,
-      name: "PLACE FOUR",
+      name: "Aunty Maggie",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, iure illum alias repudiandae provident maiores aliquid unde facilis atque nobis ut assumenda consequatur possimus dolorum vero laborum obcaecati molestiae, voluptatibus sit odit nam labore dicta.Quisquam incidunt nemo itaque, commodi nostrum ipsa doloremque non provident beatae laboriosam! Debitis aut cum molestiae nesciunt neque distinctio inventore veniam soluta incidunt consequuntur delectus ab minus magni, aliquam, ullam blanditiis reprehenderit corrupti quis ducimus corporis ex iure itaque doloribus dolorum! Magnam earum nam fuga, inventore odit suscipit libero similique non soluta totam, eum, ipsa est voluptatum aliquam! Expedita, similique quos.Deleniti alias, nemo excepturi quia eveniet quaerat corrupti? Quaerat sit nam reprehenderit molestiae cupiditate ipsa corrupti molestias nobis similique ad nihil debitis nostrum libero, a sunt illo sed, nesciunt deserunt? Sapiente harum quam commodi doloribus recusandae, magnam id qui impedit praesentium iste eaque ipsum vero iure assumenda laudantium in.Labore expedita inventore sed adipisci amet magnam ullam aliquid.Aut, maxime officia.Doloremque explicabo ad fuga sint cupiditate, aperiam similique esse sit, tempora voluptatem voluptatibus, maxime quos commodi? Aspernatur commodi quasi consequuntur animi vel ab explicabo, unde consequatur voluptas.Cumque, beatae soluta nisi fugiat quisquam eveniet quod, ea maxime ratione in aperiam repellendus doloremque! Ipsum!",
       images: [
@@ -77,7 +77,7 @@ const places = createSlice({
     },
     {
       id: 5,
-      name: "PLACE FIVE",
+      name: "Tiger Road",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, iure illum alias repudiandae provident maiores aliquid unde facilis atque nobis ut assumenda consequatur possimus dolorum vero laborum obcaecati molestiae, voluptatibus sit odit nam labore dicta.Quisquam incidunt nemo itaque, commodi nostrum ipsa doloremque non provident beatae laboriosam! Debitis aut cum molestiae nesciunt neque distinctio inventore veniam soluta incidunt consequuntur delectus ab minus magni, aliquam, ullam blanditiis reprehenderit corrupti quis ducimus corporis ex iure itaque doloribus dolorum! Magnam earum nam fuga, inventore odit suscipit libero similique non soluta totam, eum, ipsa est voluptatum aliquam! Expedita, similique quos.Deleniti alias, nemo excepturi quia eveniet quaerat corrupti? Quaerat sit nam reprehenderit molestiae cupiditate ipsa corrupti molestias nobis similique ad nihil debitis nostrum libero, a sunt illo sed, nesciunt deserunt? Sapiente harum quam commodi doloribus recusandae, magnam id qui impedit praesentium iste eaque ipsum vero iure assumenda laudantium in.Labore expedita inventore sed adipisci amet magnam ullam aliquid.Aut, maxime officia.Doloremque explicabo ad fuga sint cupiditate, aperiam similique esse sit, tempora voluptatem voluptatibus, maxime quos commodi? Aspernatur commodi quasi consequuntur animi vel ab explicabo, unde consequatur voluptas.Cumque, beatae soluta nisi fugiat quisquam eveniet quod, ea maxime ratione in aperiam repellendus doloremque! Ipsum!",
       images: [
@@ -95,7 +95,7 @@ const places = createSlice({
     },
     {
       id: 6,
-      name: "PLACE SIX",
+      name: "B-zone",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, iure illum alias repudiandae provident maiores aliquid unde facilis atque nobis ut assumenda consequatur possimus dolorum vero laborum obcaecati molestiae, voluptatibus sit odit nam labore dicta.Quisquam incidunt nemo itaque, commodi nostrum ipsa doloremque non provident beatae laboriosam! Debitis aut cum molestiae nesciunt neque distinctio inventore veniam soluta incidunt consequuntur delectus ab minus magni, aliquam, ullam blanditiis reprehenderit corrupti quis ducimus corporis ex iure itaque doloribus dolorum! Magnam earum nam fuga, inventore odit suscipit libero similique non soluta totam, eum, ipsa est voluptatum aliquam! Expedita, similique quos.Deleniti alias, nemo excepturi quia eveniet quaerat corrupti? Quaerat sit nam reprehenderit molestiae cupiditate ipsa corrupti molestias nobis similique ad nihil debitis nostrum libero, a sunt illo sed, nesciunt deserunt? Sapiente harum quam commodi doloribus recusandae, magnam id qui impedit praesentium iste eaque ipsum vero iure assumenda laudantium in.Labore expedita inventore sed adipisci amet magnam ullam aliquid.Aut, maxime officia.Doloremque explicabo ad fuga sint cupiditate, aperiam similique esse sit, tempora voluptatem voluptatibus, maxime quos commodi? Aspernatur commodi quasi consequuntur animi vel ab explicabo, unde consequatur voluptas.Cumque, beatae soluta nisi fugiat quisquam eveniet quod, ea maxime ratione in aperiam repellendus doloremque! Ipsum!",
       images: [
@@ -113,7 +113,25 @@ const places = createSlice({
     },
     {
       id: 7,
-      name: "PLACE SEVEN",
+      name: "DL Deshpande Auditorium",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, iure illum alias repudiandae provident maiores aliquid unde facilis atque nobis ut assumenda consequatur possimus dolorum vero laborum obcaecati molestiae, voluptatibus sit odit nam labore dicta.Quisquam incidunt nemo itaque, commodi nostrum ipsa doloremque non provident beatae laboriosam! Debitis aut cum molestiae nesciunt neque distinctio inventore veniam soluta incidunt consequuntur delectus ab minus magni, aliquam, ullam blanditiis reprehenderit corrupti quis ducimus corporis ex iure itaque doloribus dolorum! Magnam earum nam fuga, inventore odit suscipit libero similique non soluta totam, eum, ipsa est voluptatum aliquam! Expedita, similique quos.Deleniti alias, nemo excepturi quia eveniet quaerat corrupti? Quaerat sit nam reprehenderit molestiae cupiditate ipsa corrupti molestias nobis similique ad nihil debitis nostrum libero, a sunt illo sed, nesciunt deserunt? Sapiente harum quam commodi doloribus recusandae, magnam id qui impedit praesentium iste eaque ipsum vero iure assumenda laudantium in.Labore expedita inventore sed adipisci amet magnam ullam aliquid.Aut, maxime officia.Doloremque explicabo ad fuga sint cupiditate, aperiam similique esse sit, tempora voluptatem voluptatibus, maxime quos commodi? Aspernatur commodi quasi consequuntur animi vel ab explicabo, unde consequatur voluptas.Cumque, beatae soluta nisi fugiat quisquam eveniet quod, ea maxime ratione in aperiam repellendus doloremque! Ipsum!",
+      images: [
+        "image (8).jpg",
+        "image (1).jpg",
+        "image (2).jpg",
+        "image (3).jpg",
+        "image (4).jpg",
+        "image (5).jpg",
+        "image (6).jpg",
+        "image (7).jpg",
+      ],
+      mapLink: "",
+      link: "/experiences/place-7",
+    },
+    {
+      id: 8,
+      name: "Central Library",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, iure illum alias repudiandae provident maiores aliquid unde facilis atque nobis ut assumenda consequatur possimus dolorum vero laborum obcaecati molestiae, voluptatibus sit odit nam labore dicta.Quisquam incidunt nemo itaque, commodi nostrum ipsa doloremque non provident beatae laboriosam! Debitis aut cum molestiae nesciunt neque distinctio inventore veniam soluta incidunt consequuntur delectus ab minus magni, aliquam, ullam blanditiis reprehenderit corrupti quis ducimus corporis ex iure itaque doloribus dolorum! Magnam earum nam fuga, inventore odit suscipit libero similique non soluta totam, eum, ipsa est voluptatum aliquam! Expedita, similique quos.Deleniti alias, nemo excepturi quia eveniet quaerat corrupti? Quaerat sit nam reprehenderit molestiae cupiditate ipsa corrupti molestias nobis similique ad nihil debitis nostrum libero, a sunt illo sed, nesciunt deserunt? Sapiente harum quam commodi doloribus recusandae, magnam id qui impedit praesentium iste eaque ipsum vero iure assumenda laudantium in.Labore expedita inventore sed adipisci amet magnam ullam aliquid.Aut, maxime officia.Doloremque explicabo ad fuga sint cupiditate, aperiam similique esse sit, tempora voluptatem voluptatibus, maxime quos commodi? Aspernatur commodi quasi consequuntur animi vel ab explicabo, unde consequatur voluptas.Cumque, beatae soluta nisi fugiat quisquam eveniet quod, ea maxime ratione in aperiam repellendus doloremque! Ipsum!",
       images: [
