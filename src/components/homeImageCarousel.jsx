@@ -1,7 +1,11 @@
 import { useSelector } from "react-redux";
 
 export default function homeImageCarousel() {
-  const imageList = useSelector((store) => store.homeImageCarouselImages);
+  const imageList = useSelector((store) => store.homeImageCarouselImages).slice(
+    0,
+    6
+  );
+
   const buttonRenderElement = imageList.map((item, index) => {
     const retEl =
       index === 0 ? (
