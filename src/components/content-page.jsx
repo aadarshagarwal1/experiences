@@ -1,6 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
 import "./content-page.css";
-import { useId } from "react";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { headerSliceActions } from "../store/headerSlice";
@@ -9,6 +8,36 @@ export default function contentPage(props) {
   const itemArray = useSelector((store) => store.places);
   const currentItem = itemArray.filter((item) => item.id === props.id)[0];
   const images = currentItem.images;
+  const renderElement = images.map((item, index) => {
+    let returnElement = [];
+    if (index === 0) {
+      returnElement = (
+        <div className="carousel-item active" key={index}>
+          <img
+            className="d-block contentPageImage"
+            src={item}
+            alt="First slide"
+            loading="lazy"
+          />
+        </div>
+      );
+    } else {
+      returnElement = (
+        <div className="carousel-item" key={index}>
+          {" "}
+          <img
+            className="d-block contentPageImage"
+            src={item}
+            alt="Second slide"
+            loading="lazy"
+          />
+        </div>
+      );
+    }
+    return returnElement;
+  });
+
+  console.log(renderElement);
   return (
     <div>
       <div
@@ -26,7 +55,7 @@ export default function contentPage(props) {
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
         <div className="carousel-inner">
-          <div className="carousel-item active">
+          {/* <div className="carousel-item active">
             <img
               className="d-block contentPageImage"
               src="image (1).jpg"
@@ -49,7 +78,8 @@ export default function contentPage(props) {
               alt="Third slide"
               loading="lazy"
             />
-          </div>
+          </div> */}
+          {renderElement}
         </div>
         <a
           className="carousel-control-prev"

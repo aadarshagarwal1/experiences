@@ -24,7 +24,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/experiences/place-1",
+        path: "/experiences/bit-canteen",
         element: <ContentPage id={1} />,
       },
       {
@@ -50,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: "/experiences/place-7",
         element: <ContentPage id={7} />,
+      },
+      {
+        path: "/experiences/place-8",
+        element: <ContentPage id={8} />,
       },
     ],
   },

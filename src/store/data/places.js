@@ -9,34 +9,21 @@ const places = createSlice({
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, iure illum alias repudiandae provident maiores aliquid unde facilis atque nobis ut assumenda consequatur possimus dolorum vero laborum obcaecati molestiae, voluptatibus sit odit nam labore dicta.Quisquam incidunt nemo itaque, commodi nostrum ipsa doloremque non provident beatae laboriosam! Debitis aut cum molestiae nesciunt neque distinctio inventore veniam soluta incidunt consequuntur delectus ab minus magni, aliquam, ullam blanditiis reprehenderit corrupti quis ducimus corporis ex iure itaque doloribus dolorum! Magnam earum nam fuga, inventore odit suscipit libero similique non soluta totam, eum, ipsa est voluptatum aliquam! Expedita, similique quos.Deleniti alias, nemo excepturi quia eveniet quaerat corrupti? Quaerat sit nam reprehenderit molestiae cupiditate ipsa corrupti molestias nobis similique ad nihil debitis nostrum libero, a sunt illo sed, nesciunt deserunt? Sapiente harum quam commodi doloribus recusandae, magnam id qui impedit praesentium iste eaque ipsum vero iure assumenda laudantium in.Labore expedita inventore sed adipisci amet magnam ullam aliquid.Aut, maxime officia.Doloremque explicabo ad fuga sint cupiditate, aperiam similique esse sit, tempora voluptatem voluptatibus, maxime quos commodi? Aspernatur commodi quasi consequuntur animi vel ab explicabo, unde consequatur voluptas.Cumque, beatae soluta nisi fugiat quisquam eveniet quod, ea maxime ratione in aperiam repellendus doloremque! Ipsum!",
       images: [
-        "image (2).jpg",
-        "image (1).jpg",
-        "image (3).jpg",
-        "image (4).jpg",
-        "image (5).jpg",
-        "image (6).jpg",
-        "image (7).jpg",
-        "image (8).jpg",
+        "bitCanteen/image (1).png",
+        "bitCanteen/image (2).png",
+        "bitCanteen/image (3).png",
+        "bitCanteen/image (4).png",
       ],
-      mapLink: "",
-      link: "/experiences/place-1",
+      mapLink: "https://maps.app.goo.gl/tq9WJ4hwxfiViAKK9",
+      link: "/experiences/bit-canteen",
     },
     {
       id: 2,
       name: "Nescafé",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, iure illum alias repudiandae provident maiores aliquid unde facilis atque nobis ut assumenda consequatur possimus dolorum vero laborum obcaecati molestiae, voluptatibus sit odit nam labore dicta.Quisquam incidunt nemo itaque, commodi nostrum ipsa doloremque non provident beatae laboriosam! Debitis aut cum molestiae nesciunt neque distinctio inventore veniam soluta incidunt consequuntur delectus ab minus magni, aliquam, ullam blanditiis reprehenderit corrupti quis ducimus corporis ex iure itaque doloribus dolorum! Magnam earum nam fuga, inventore odit suscipit libero similique non soluta totam, eum, ipsa est voluptatum aliquam! Expedita, similique quos.Deleniti alias, nemo excepturi quia eveniet quaerat corrupti? Quaerat sit nam reprehenderit molestiae cupiditate ipsa corrupti molestias nobis similique ad nihil debitis nostrum libero, a sunt illo sed, nesciunt deserunt? Sapiente harum quam commodi doloribus recusandae, magnam id qui impedit praesentium iste eaque ipsum vero iure assumenda laudantium in.Labore expedita inventore sed adipisci amet magnam ullam aliquid.Aut, maxime officia.Doloremque explicabo ad fuga sint cupiditate, aperiam similique esse sit, tempora voluptatem voluptatibus, maxime quos commodi? Aspernatur commodi quasi consequuntur animi vel ab explicabo, unde consequatur voluptas.Cumque, beatae soluta nisi fugiat quisquam eveniet quod, ea maxime ratione in aperiam repellendus doloremque! Ipsum!",
-      images: [
-        "image (3).jpg",
-        "image (1).jpg",
-        "image (2).jpg",
-        "image (4).jpg",
-        "image (5).jpg",
-        "image (6).jpg",
-        "image (7).jpg",
-        "image (8).jpg",
-      ],
-      mapLink: "",
+      images: ["nescafe/image (1).png", "nescafe/image (2).png"],
+      mapLink: "https://maps.app.goo.gl/5M4i7vQHENBzXoaP7",
       link: "/experiences/place-2",
     },
     {
@@ -44,17 +31,8 @@ const places = createSlice({
       name: "Piya Milan Chowk",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, iure illum alias repudiandae provident maiores aliquid unde facilis atque nobis ut assumenda consequatur possimus dolorum vero laborum obcaecati molestiae, voluptatibus sit odit nam labore dicta.Quisquam incidunt nemo itaque, commodi nostrum ipsa doloremque non provident beatae laboriosam! Debitis aut cum molestiae nesciunt neque distinctio inventore veniam soluta incidunt consequuntur delectus ab minus magni, aliquam, ullam blanditiis reprehenderit corrupti quis ducimus corporis ex iure itaque doloribus dolorum! Magnam earum nam fuga, inventore odit suscipit libero similique non soluta totam, eum, ipsa est voluptatum aliquam! Expedita, similique quos.Deleniti alias, nemo excepturi quia eveniet quaerat corrupti? Quaerat sit nam reprehenderit molestiae cupiditate ipsa corrupti molestias nobis similique ad nihil debitis nostrum libero, a sunt illo sed, nesciunt deserunt? Sapiente harum quam commodi doloribus recusandae, magnam id qui impedit praesentium iste eaque ipsum vero iure assumenda laudantium in.Labore expedita inventore sed adipisci amet magnam ullam aliquid.Aut, maxime officia.Doloremque explicabo ad fuga sint cupiditate, aperiam similique esse sit, tempora voluptatem voluptatibus, maxime quos commodi? Aspernatur commodi quasi consequuntur animi vel ab explicabo, unde consequatur voluptas.Cumque, beatae soluta nisi fugiat quisquam eveniet quod, ea maxime ratione in aperiam repellendus doloremque! Ipsum!",
-      images: [
-        "image (4).jpg",
-        "image (1).jpg",
-        "image (2).jpg",
-        "image (3).jpg",
-        "image (5).jpg",
-        "image (6).jpg",
-        "image (7).jpg",
-        "image (8).jpg",
-      ],
-      mapLink: "",
+      images: ["pmc/image (1).png", "pmc/image (2).png"],
+      mapLink: "https://maps.app.goo.gl/r6gXACU84QU9C44D7",
       link: "/experiences/place-3",
     },
     {
@@ -62,17 +40,8 @@ const places = createSlice({
       name: "Aunty Maggie",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, iure illum alias repudiandae provident maiores aliquid unde facilis atque nobis ut assumenda consequatur possimus dolorum vero laborum obcaecati molestiae, voluptatibus sit odit nam labore dicta.Quisquam incidunt nemo itaque, commodi nostrum ipsa doloremque non provident beatae laboriosam! Debitis aut cum molestiae nesciunt neque distinctio inventore veniam soluta incidunt consequuntur delectus ab minus magni, aliquam, ullam blanditiis reprehenderit corrupti quis ducimus corporis ex iure itaque doloribus dolorum! Magnam earum nam fuga, inventore odit suscipit libero similique non soluta totam, eum, ipsa est voluptatum aliquam! Expedita, similique quos.Deleniti alias, nemo excepturi quia eveniet quaerat corrupti? Quaerat sit nam reprehenderit molestiae cupiditate ipsa corrupti molestias nobis similique ad nihil debitis nostrum libero, a sunt illo sed, nesciunt deserunt? Sapiente harum quam commodi doloribus recusandae, magnam id qui impedit praesentium iste eaque ipsum vero iure assumenda laudantium in.Labore expedita inventore sed adipisci amet magnam ullam aliquid.Aut, maxime officia.Doloremque explicabo ad fuga sint cupiditate, aperiam similique esse sit, tempora voluptatem voluptatibus, maxime quos commodi? Aspernatur commodi quasi consequuntur animi vel ab explicabo, unde consequatur voluptas.Cumque, beatae soluta nisi fugiat quisquam eveniet quod, ea maxime ratione in aperiam repellendus doloremque! Ipsum!",
-      images: [
-        "image (5).jpg",
-        "image (1).jpg",
-        "image (2).jpg",
-        "image (3).jpg",
-        "image (4).jpg",
-        "image (6).jpg",
-        "image (7).jpg",
-        "image (8).jpg",
-      ],
-      mapLink: "",
+      images: ["auntyMaggie/image (1).png", "auntyMaggie/image (2).png"],
+      mapLink: "https://maps.app.goo.gl/rFCBAhP8PvnGhPTk7",
       link: "/experiences/place-4",
     },
     {
@@ -95,25 +64,25 @@ const places = createSlice({
     },
     {
       id: 6,
-      name: "B-zone",
+      name: "Deshpande Auditorium",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, iure illum alias repudiandae provident maiores aliquid unde facilis atque nobis ut assumenda consequatur possimus dolorum vero laborum obcaecati molestiae, voluptatibus sit odit nam labore dicta.Quisquam incidunt nemo itaque, commodi nostrum ipsa doloremque non provident beatae laboriosam! Debitis aut cum molestiae nesciunt neque distinctio inventore veniam soluta incidunt consequuntur delectus ab minus magni, aliquam, ullam blanditiis reprehenderit corrupti quis ducimus corporis ex iure itaque doloribus dolorum! Magnam earum nam fuga, inventore odit suscipit libero similique non soluta totam, eum, ipsa est voluptatum aliquam! Expedita, similique quos.Deleniti alias, nemo excepturi quia eveniet quaerat corrupti? Quaerat sit nam reprehenderit molestiae cupiditate ipsa corrupti molestias nobis similique ad nihil debitis nostrum libero, a sunt illo sed, nesciunt deserunt? Sapiente harum quam commodi doloribus recusandae, magnam id qui impedit praesentium iste eaque ipsum vero iure assumenda laudantium in.Labore expedita inventore sed adipisci amet magnam ullam aliquid.Aut, maxime officia.Doloremque explicabo ad fuga sint cupiditate, aperiam similique esse sit, tempora voluptatem voluptatibus, maxime quos commodi? Aspernatur commodi quasi consequuntur animi vel ab explicabo, unde consequatur voluptas.Cumque, beatae soluta nisi fugiat quisquam eveniet quod, ea maxime ratione in aperiam repellendus doloremque! Ipsum!",
       images: [
-        "image (7).jpg",
+        "image (8).jpg",
         "image (1).jpg",
         "image (2).jpg",
         "image (3).jpg",
         "image (4).jpg",
         "image (5).jpg",
         "image (6).jpg",
-        "image (8).jpg",
+        "image (7).jpg",
       ],
       mapLink: "",
       link: "/experiences/place-6",
     },
     {
       id: 7,
-      name: "DL Deshpande Auditorium",
+      name: "Central Library",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, iure illum alias repudiandae provident maiores aliquid unde facilis atque nobis ut assumenda consequatur possimus dolorum vero laborum obcaecati molestiae, voluptatibus sit odit nam labore dicta.Quisquam incidunt nemo itaque, commodi nostrum ipsa doloremque non provident beatae laboriosam! Debitis aut cum molestiae nesciunt neque distinctio inventore veniam soluta incidunt consequuntur delectus ab minus magni, aliquam, ullam blanditiis reprehenderit corrupti quis ducimus corporis ex iure itaque doloribus dolorum! Magnam earum nam fuga, inventore odit suscipit libero similique non soluta totam, eum, ipsa est voluptatum aliquam! Expedita, similique quos.Deleniti alias, nemo excepturi quia eveniet quaerat corrupti? Quaerat sit nam reprehenderit molestiae cupiditate ipsa corrupti molestias nobis similique ad nihil debitis nostrum libero, a sunt illo sed, nesciunt deserunt? Sapiente harum quam commodi doloribus recusandae, magnam id qui impedit praesentium iste eaque ipsum vero iure assumenda laudantium in.Labore expedita inventore sed adipisci amet magnam ullam aliquid.Aut, maxime officia.Doloremque explicabo ad fuga sint cupiditate, aperiam similique esse sit, tempora voluptatem voluptatibus, maxime quos commodi? Aspernatur commodi quasi consequuntur animi vel ab explicabo, unde consequatur voluptas.Cumque, beatae soluta nisi fugiat quisquam eveniet quod, ea maxime ratione in aperiam repellendus doloremque! Ipsum!",
       images: [
@@ -131,7 +100,7 @@ const places = createSlice({
     },
     {
       id: 8,
-      name: "Central Library",
+      name: "Baba Ka Dhaba",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit.Deleniti, iure illum alias repudiandae provident maiores aliquid unde facilis atque nobis ut assumenda consequatur possimus dolorum vero laborum obcaecati molestiae, voluptatibus sit odit nam labore dicta.Quisquam incidunt nemo itaque, commodi nostrum ipsa doloremque non provident beatae laboriosam! Debitis aut cum molestiae nesciunt neque distinctio inventore veniam soluta incidunt consequuntur delectus ab minus magni, aliquam, ullam blanditiis reprehenderit corrupti quis ducimus corporis ex iure itaque doloribus dolorum! Magnam earum nam fuga, inventore odit suscipit libero similique non soluta totam, eum, ipsa est voluptatum aliquam! Expedita, similique quos.Deleniti alias, nemo excepturi quia eveniet quaerat corrupti? Quaerat sit nam reprehenderit molestiae cupiditate ipsa corrupti molestias nobis similique ad nihil debitis nostrum libero, a sunt illo sed, nesciunt deserunt? Sapiente harum quam commodi doloribus recusandae, magnam id qui impedit praesentium iste eaque ipsum vero iure assumenda laudantium in.Labore expedita inventore sed adipisci amet magnam ullam aliquid.Aut, maxime officia.Doloremque explicabo ad fuga sint cupiditate, aperiam similique esse sit, tempora voluptatem voluptatibus, maxime quos commodi? Aspernatur commodi quasi consequuntur animi vel ab explicabo, unde consequatur voluptas.Cumque, beatae soluta nisi fugiat quisquam eveniet quod, ea maxime ratione in aperiam repellendus doloremque! Ipsum!",
       images: [
@@ -144,8 +113,8 @@ const places = createSlice({
         "image (6).jpg",
         "image (7).jpg",
       ],
-      mapLink: "",
-      link: "/experiences/place-7",
+      mapLink: "https://maps.app.goo.gl/XYtydzSVuhf287CLA",
+      link: "/experiences/place-8",
     },
   ],
 });
