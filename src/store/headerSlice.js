@@ -7,7 +7,7 @@ const headerSlice = createSlice({
   },
   reducers: {
     setColor: (state, action) => {
-      state.color = action.payload;
+      state.color = "white";
     },
   },
 });
