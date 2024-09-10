@@ -13,58 +13,64 @@ export default function hero() {
                     src="nirfLogo.png"
                     className="hero-dataBlock-tag"
                     alt=""
-                  />
+                  />{" "}
+                  <p className="hero-dataBlock-comment">RANKING - 2024</p>
                 </div>
               </div>
               <div className="col">
                 <div className="hero-dataBlock">
-                  <p className="hero-dataBlock-data">#200-250</p>
+                  <p className="hero-dataBlock-data">#51</p>
                   <img
-                    src="nirfLogo.png"
+                    src="iirflogo.png"
                     className="hero-dataBlock-tag"
                     alt=""
                   />{" "}
+                  <p className="hero-dataBlock-comment">national rank</p>
                 </div>
               </div>
               <div className="col">
                 <div className="hero-dataBlock">
-                  <p className="hero-dataBlock-data">#200-250</p>
+                  <p className="hero-dataBlock-data">400 ACRES</p>
                   <img
-                    src="nirfLogo.png"
+                    src="campusAreaLogo.png"
                     className="hero-dataBlock-tag"
                     alt=""
                   />{" "}
+                  <p className="hero-dataBlock-comment">Campus Area</p>
                 </div>
               </div>
               <div className="w-100"></div>
               <div className="col">
                 <div className="hero-dataBlock">
-                  <p className="hero-dataBlock-data">#200-250</p>
+                  <p className="hero-dataBlock-data">75 YEARS</p>
                   <img
-                    src="nirfLogo.png"
+                    src="historyLogo.png"
                     className="hero-dataBlock-tag"
                     alt=""
                   />{" "}
+                  <p className="hero-dataBlock-comment">of glorious history</p>
                 </div>
               </div>
               <div className="col">
                 <div className="hero-dataBlock">
-                  <p className="hero-dataBlock-data">#200-250</p>
+                  <p className="hero-dataBlock-data">50LPA</p>
                   <img
-                    src="nirfLogo.png"
+                    src="placementLogo.png"
                     className="hero-dataBlock-tag"
                     alt=""
                   />{" "}
+                  <p className="hero-dataBlock-comment">Highest Package</p>
                 </div>
               </div>
               <div className="col">
                 <div className="hero-dataBlock">
-                  <p className="hero-dataBlock-data">#200-250</p>
+                  <p className="hero-dataBlock-data">50K+</p>
                   <img
-                    src="nirfLogo.png"
+                    src="graduationLogo.png"
                     className="hero-dataBlock-tag"
                     alt=""
                   />{" "}
+                  <p className="hero-dataBlock-comment">students graduated</p>
                 </div>
               </div>
             </div>

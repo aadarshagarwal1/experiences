@@ -31,6 +31,7 @@ export default function contentPage(props) {
               className="d-block contentPageImage"
               src="image (1).jpg"
               alt="First slide"
+              loading="lazy"
             />
           </div>
           <div className="carousel-item">
@@ -38,6 +39,7 @@ export default function contentPage(props) {
               className="d-block contentPageImage"
               src="image (2).jpg"
               alt="Second slide"
+              loading="lazy"
             />
           </div>
           <div className="carousel-item">
@@ -45,6 +47,7 @@ export default function contentPage(props) {
               className="d-block contentPageImage"
               src="image (3).jpg"
               alt="Third slide"
+              loading="lazy"
             />
           </div>
         </div>
