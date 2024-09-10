@@ -36,17 +36,10 @@ export default function HomeImageGallery() {
             }}
           >
             <div className="influencer-col-item">
-              <img
-                src="homeGallery/image (1).png"
-                alt="private_pool_villa_bali"
-                width="210"
-              />
+              <img src="homeGallery/image (1).png" alt="" width="210" />
             </div>
             <div className="influencer-col-item">
-              <img
-                src="homeGallery/image (2).png"
-                alt="uluwatu_villa_bali_influencer"
-              />
+              <img src="homeGallery/image (2).png" alt="" />
             </div>
           </div>
           <div
@@ -57,16 +50,10 @@ export default function HomeImageGallery() {
             }}
           >
             <div className="influencer-col-item">
-              <img
-                src="homeGallery/image (3).png"
-                alt="uluwatu_villa_bali_influencer"
-              />
+              <img src="homeGallery/image (3).png" alt="" />
             </div>
             <div className="influencer-col-item">
-              <img
-                src="homeGallery/image (4).png"
-                alt="romantic_bali_accommodation"
-              />
+              <img src="homeGallery/image (4).png" alt="" />
             </div>
           </div>
           <div
@@ -77,16 +64,10 @@ export default function HomeImageGallery() {
             }}
           >
             <div className="influencer-col-item">
-              <img
-                src="homeGallery/image (5).png"
-                alt="private_pool_villas_uluwatu"
-              />
+              <img src="homeGallery/image (5).png" alt="" />
             </div>
             <div className="influencer-col-item">
-              <img
-                src="homeGallery/image (6).png"
-                alt="uluwatu_villas_king_sized_bed"
-              />
+              <img src="homeGallery/image (6).png" alt="" />
             </div>
           </div>
           <div
@@ -98,16 +79,10 @@ export default function HomeImageGallery() {
             }}
           >
             <div className="influencer-col-item">
-              <img
-                src="homeGallery/image (7).png"
-                alt="luxury_resort_villas_bukit_peninsula"
-              />
+              <img src="homeGallery/image (7).png" alt="" />
             </div>
             <div className="influencer-col-item">
-              <img
-                src="homeGallery/image (8).png"
-                alt="private_uluwatu_villas_bali"
-              />
+              <img src="homeGallery/image (8).png" alt="" />
             </div>
           </div>
           <div
@@ -119,16 +94,10 @@ export default function HomeImageGallery() {
             }}
           >
             <div className="influencer-col-item">
-              <img
-                src="homeGallery/image (9).png"
-                alt="private_pool_villas_bali"
-              />
+              <img src="homeGallery/image (9).png" alt="" />
             </div>
             <div className="influencer-col-item">
-              <img
-                src="homeGallery/image (10).png"
-                alt="uluwatu_wedding_venue_bali"
-              />
+              <img src="homeGallery/image (10).png" alt="" />
             </div>
           </div>
         </div>

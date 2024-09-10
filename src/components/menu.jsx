@@ -32,7 +32,7 @@ export default function menu() {
         >
           <div className="menu-option-home">{"HOME"}</div>
         </Link>
-        {renderElement}
+        <div className="placesLinksColumn">{renderElement}</div>
       </div>
       <div className="menu-footer">
         <p className="menu-footer-heading">FOR MORE INFORMATION CONTACT.</p>

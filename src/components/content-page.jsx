@@ -25,7 +25,10 @@ export default function contentPage(props) {
   const renderELement = splitIntoThreeParts(images).map((item, index) => {
     const el = item.map((item) => {
       return (
-        <div className="contentPageImageGalleryImageContainer mb-4 rounded">
+        <div
+          className="contentPageImageGalleryImageContainer mb-4 rounded"
+          key={index}
+        >
           <img
             src={item}
             className="w-100 shadow-1-strong  "
@@ -40,6 +43,7 @@ export default function contentPage(props) {
     dispatch(headerSliceActions.setColor("black"));
   }, []);
   return (
+    /*
     <div className="contentPage">
       <p className="contentPageHeading">{currentItem.name}</p>
       <p className="contentPageContent content-font">
@@ -54,6 +58,61 @@ export default function contentPage(props) {
       >
         <div className="row">{renderELement}</div>
       </div>
+    </div>
+    */
+    <div
+      id="carouselExampleIndicators"
+      className="carousel slide"
+      data-ride="carousel"
+    >
+      <ol className="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          className="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div className="carousel-inner">
+        <div className="carousel-item active">
+          <img
+            className="d-block w-100"
+            src="image (1).jpg"
+            alt="First slide"
+          />
+        </div>
+        <div className="carousel-item">
+          <img
+            className="d-block w-100"
+            src="image (2).jpg"
+            alt="Second slide"
+          />
+        </div>
+        <div className="carousel-item">
+          <img
+            className="d-block w-100"
+            src="image (3).jpg"
+            alt="Third slide"
+          />
+        </div>
+      </div>
+      <a
+        className="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a
+        className="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
     </div>
   );
 }
