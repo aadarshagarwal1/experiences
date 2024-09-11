@@ -51,10 +51,6 @@ const router = createBrowserRouter([
         path: "/experiences/place-7",
         element: <ContentPage id={7} />,
       },
-      {
-        path: "/experiences/place-8",
-        element: <ContentPage id={8} />,
-      },
     ],
   },
 ]);
