@@ -37,7 +37,6 @@ export default function contentPage(props) {
     return returnElement;
   });
 
-  console.log(renderElement);
   return (
     <div>
       <div
