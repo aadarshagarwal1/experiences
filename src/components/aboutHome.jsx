@@ -18,17 +18,11 @@ export default function aboutHome() {
           <p className="aboutHome-details-heading heading-font">BIT Sindri</p>
         </div>
         <p className="aboutHome-details-content content-font">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel
-          dolores excepturi similique sapiente magni corporis alias laborum,
-          ducimus eveniet aperiam at! Placeat quo inventore perspiciatis rem,
-          omnis eveniet? Sed amet ducimus quos laboriosam. Nostrum mollitia
-          quibusdam quas temporibus eum, ut, voluptatem laborum alias facilis
-          ratione sunt ex perferendis deserunt saepe natus error ducimus! Eaque
-          impedit inventore earum officiis. Sint facere aliquid nisi obcaecati
-          tempora laborum deleniti, neque maiores suscipit, asperiores ex vitae
-          molestias illo beatae! Facere ullam nesciunt sit nulla commodi
-          incidunt perferendis voluptate provident, dicta reprehenderit ut quo
-          id repellendus dolor saepe porro in, veniam neque placeat corporis.
+          ISTE Student's Chapter BIT Sindri is a nationally affiliated
+          techno-management society registered with ISTE New Delhi. With the
+          motto of Technical Development, ISTE Student's Chapter focuses on the
+          personality development and enhancement of Technical Skills of the
+          students to meet the modern competitive era.
         </p>
         <a href="https://istebits.com/" target="_blank">
           <div className="aboutHome-button">KNOW MORE</div>

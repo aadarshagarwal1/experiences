@@ -77,14 +77,13 @@ export default function hero() {
           </div>
           <div className="col-lg-6">
             <h1 className="display-5 fw-bold lh-1 mb-4 heading-font hero-heading">
-              Lorem, ipsum dolor sit amet consectetur adipisicing
+              The Premier Engineering College of Jharkhand{" "}
             </h1>
             <p className="lead content-font hero-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              aperiam quis consequuntur amet nobis cupiditate, laboriosam iste
-              veniam deleniti expedita quisquam molestias? Consequuntur, impedit
-              cumque eum porro beatae modi esse. Sapiente, aliquid. Accusantium
-              nemo consequatur est voluptatibus minima maxime fugit.
+              Established in 1949, BIT Sindri is one of India’s oldest
+              government engineering and technological institutes. BIT Sindri is
+              known for its contribution to the field of higher technical
+              education and research.
             </p>
           </div>
         </div>
