@@ -15,7 +15,10 @@
 .experiences-line {
   font-size: 2.5rem;
   letter-spacing: 13px;
-  font-family: "LaQuestro";
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
 }
 .bit-sindri-line {
   font-size: 0.8rem;

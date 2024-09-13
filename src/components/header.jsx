@@ -23,7 +23,7 @@ const header = (props) => {
               className="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none"
             >
               <div className="website-title" style={{ color: color }}>
-                <h3 className="experiences-line">Ex-Periences</h3>
+                <h3 className="experiences-line">Experiences</h3>
                 <h4 className="bit-sindri-line">BIT SINDRI</h4>
               </div>
             </Link>

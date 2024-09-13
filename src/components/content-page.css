@@ -21,13 +21,27 @@
   letter-spacing: 2.2px;
   word-spacing: 3.5px;
   margin-bottom: 3rem;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 .contentPageContent {
   letter-spacing: 1.2px;
   margin-bottom: 3em;
   display: -webkit-box;
   max-width: 60rem;
-  text-shadow: 1px 1px 1px black;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 1rem 3rem 1rem 3rem;
 }
 
 .contentPageButton {
@@ -39,7 +53,6 @@
   transition: all 300ms;
   letter-spacing: 2.3px;
   word-spacing: 3px;
-  margin-bottom: 5rem;
   font-family: "nimbusSan", sans-serif;
   &:hover {
     color: black;
