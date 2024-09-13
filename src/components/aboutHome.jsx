@@ -30,7 +30,7 @@ export default function aboutHome() {
           incidunt perferendis voluptate provident, dicta reprehenderit ut quo
           id repellendus dolor saepe porro in, veniam neque placeat corporis.
         </p>
-        <a href="https://istebits.in/">
+        <a href="https://istebits.com/">
           <div className="aboutHome-button">KNOW MORE</div>
         </a>
       </div>
