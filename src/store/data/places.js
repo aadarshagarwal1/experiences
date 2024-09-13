@@ -24,7 +24,7 @@ const places = createSlice({
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ipsum mi, semper at justo eu, tempor ornare ante. Cras condimentum vestibulum malesuada. Duis at eleifend leo. Integer a sagittis dui. Sed elementum erat quis diam dictum eleifend. Vestibulum hendrerit, turpis ornare iaculis feugiat, odio leo interdum lorem, a placerat velit nunc pharetra urna. Etiam nec semper enim. Nulla imperdiet dictum erat nec vestibulum. Donec vitae nulla eu elit iaculis pulvinar quis maximus ex. Mauris ultrices libero mi, sed lacinia erat ornare a. Etiam feugiat leo mauris, ac ultricies tortor convallis a. Integer vel velit sapien.Suspendisse rutrum eros maximus purus semper scelerisque. Integer risus ipsum, facilisis quis tempor at, hendrerit nec odio. Duis accumsan erat egestas, interdum tellus ut, mollis sem. Nunc id velit a metus fringilla egestas. Pellentesque lacinia egestas tristique. Proin leo nibh, fringilla quis facilisis auctor, scelerisque eget velit. Suspendisse ac ante ante.Suspendisse suscipit fringilla ullamcorper. Morbi ultricies tortor in tellus mollis, nec cursus eros aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi tristique ipsum vel sem euismod vehicula. Aenean ipsum dolor, iaculis consectetur commodo eu, pharetra a lacus. Cras luctus libero ac enim feugiat, et vehicula nulla efficitur.",
       images: ["nescafe/image (1).png", "nescafe/image (2).png"],
       mapLink: "https://maps.app.goo.gl/5M4i7vQHENBzXoaP7",
-      link: "/experiences/place-2",
+      link: "/experiences/nescafé",
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ const places = createSlice({
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non euismod metus. Duis et diam a orci ultricies sollicitudin accumsan ut massa. Praesent tincidunt eget diam lacinia eleifend. Vestibulum gravida luctus porttitor. Suspendisse vitae ex commodo, mattis nibh vel, commodo libero. In lacus est, porttitor ut egestas vel, aliquet ut arcu. Pellentesque sollicitudin massa vel dui pharetra condimentum. Aliquam cursus arcu justo, quis vestibulum magna volutpat at. Vestibulum lobortis placerat orci id ultricies.Integer interdum feugiat ante, a pretium arcu accumsan eget. Pellentesque fermentum eros laoreet ipsum congue, pharetra tempor metus ullamcorper. Etiam vitae metus mauris. Donec pellentesque nulla eget mauris mollis vulputate. Nulla facilisi. Suspendisse nec nisi tincidunt, fermentum leo quis, pellentesque nisi. Curabitur sodales magna id sem vulputate, ut maximus eros congue. Praesent id blandit lacus. Proin urna eros, ultricies ut purus non, tempus consequat turpis. Cras in enim mauris. Fusce porta odio mauris, id tristique orci rutrum sit amet. Etiam aliquam feugiat lorem sit amet venenatis. Duis in euismod sem.Nulla ultrices ex in dui convallis porttitor. Etiam nec lectus quis lectus finibus dictum vestibulum vitae massa. Fusce at pulvinar arcu. Aliquam laoreet urna at erat fringilla varius. Mauris vehicula, nulla eget placerat egestas, nunc arcu ornare.",
       images: ["pmc/image (1).png", "pmc/image (2).png"],
       mapLink: "https://maps.app.goo.gl/r6gXACU84QU9C44D7",
-      link: "/experiences/place-3",
+      link: "/experiences/piya-milan-chowk",
     },
     {
       id: 4,
@@ -42,7 +42,7 @@ const places = createSlice({
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt accumsan odio eget bibendum. In fermentum malesuada augue, tristique rutrum lacus dapibus in. Mauris bibendum in justo et pharetra. Suspendisse pharetra consequat nisl ut sodales. Morbi vestibulum tellus massa, sed bibendum tellus ornare vel. Pellentesque vel interdum quam. Cras quis felis dolor. Ut vehicula dignissim faucibus. Vivamus sit amet porttitor urna.Suspendisse malesuada nibh magna. Suspendisse potenti. Sed ullamcorper efficitur purus, id placerat nisi egestas quis. Vivamus sit amet augue nec erat lacinia maximus vel non dolor. Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis in erat cursus, mattis quam tincidunt, pellentesque sem. In hac habitasse platea dictumst. Praesent eget accumsan risus. Cras felis nulla, varius non vulputate rutrum, blandit quis mi. Donec ut elit ut ex sodales maximus nec eu lacus. Vestibulum ultrices ligula eu fermentum vestibulum.Nunc tortor risus, hendrerit at suscipit quis, aliquam non nisi. Donec sit amet congue purus. Donec rutrum nisl ac dolor tristique, et porttitor ipsum tempus. Curabitur ut risus laoreet purus commodo fringilla vel vel tellus. Aenean vel finibus purus, eu tempor dui. Aenean molestie dui ex, vitae accumsan justo dictum sed. Nam placerat eros eu diam egestas ullamcorper. Duis.",
       images: ["auntyMaggie/image (1).png", "auntyMaggie/image (2).png"],
       mapLink: "https://maps.app.goo.gl/rFCBAhP8PvnGhPTk7",
-      link: "/experiences/place-4",
+      link: "/experiences/aunty-maggie",
     },
     {
       id: 5,
@@ -56,7 +56,7 @@ const places = createSlice({
         "tigerRoad/image (4).png",
       ],
       mapLink: "https://maps.app.goo.gl/Mfycho2v6xKK7QuJ9",
-      link: "/experiences/place-5",
+      link: "/experiences/tiger-road",
     },
     {
       id: 6,
@@ -71,9 +71,8 @@ const places = createSlice({
         "dpa/image (5).png",
       ],
       mapLink: "https://maps.app.goo.gl/u9kogLQ3Z6ELuMXJ9",
-      link: "/experiences/place-6",
+      link: "/experiences/deshpande-auditorium",
     },
-
     {
       id: 7,
       name: "Baba Ka Dhaba",
@@ -81,7 +80,7 @@ const places = createSlice({
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur accumsan orci, vitae pharetra sapien tempor pharetra. Proin molestie tempor ex, eget aliquet felis venenatis egestas. Donec eu orci tellus. Nulla scelerisque in lorem commodo fringilla. Vestibulum tempor ipsum enim. Fusce fermentum elit nec consectetur cursus. Pellentesque ut pharetra nulla. Nullam gravida varius tincidunt. Phasellus posuere auctor magna, vel volutpat velit imperdiet in. Vivamus eu arcu dapibus, rhoncus erat vel, venenatis metus. Nullam varius, lacus sed venenatis pretium, nisl risus dapibus libero, sed placerat arcu dolor imperdiet tortor. Mauris arcu ex, venenatis sed ante non, venenatis tincidunt justo. Nunc sit amet feugiat elit. Curabitur a odio placerat, ullamcorper nunc id, aliquam nisi. Etiam rutrum facilisis sagittis.Interdum et malesuada fames ac ante ipsum primis in faucibus. Maecenas est neque, malesuada et fringilla et, placerat ac arcu. Curabitur hendrerit neque ut eros scelerisque consequat. Phasellus mauris libero, porttitor a porta quis, finibus vel purus. Pellentesque ultricies orci laoreet, blandit lectus pharetra, pulvinar nulla. Nam non elit eget tellus facilisis mollis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi nec hendrerit ex. Duis sit amet massa turpis. Nullam turpis diam, facilisis at iaculis non, imperdiet a.",
       images: ["bkd/image (1).png", "bkd/image (2).png", "bkd/image (3).png"],
       mapLink: "https://maps.app.goo.gl/XYtydzSVuhf287CLA",
-      link: "/experiences/place-7",
+      link: "/experiences/baba-ka-dhaba",
     },
   ],
 });

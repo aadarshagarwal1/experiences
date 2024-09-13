@@ -28,27 +28,27 @@ const router = createBrowserRouter([
         element: <ContentPage id={1} />,
       },
       {
-        path: "/experiences/place-2",
+        path: "/experiences/nescafé",
         element: <ContentPage id={2} />,
       },
       {
-        path: "/experiences/place-3",
+        path: "/experiences/piya-milan-chowk",
         element: <ContentPage id={3} />,
       },
       {
-        path: "/experiences/place-4",
+        path: "/experiences/aunty-maggie",
         element: <ContentPage id={4} />,
       },
       {
-        path: "/experiences/place-5",
+        path: "/experiences/tiger-road",
         element: <ContentPage id={5} />,
       },
       {
-        path: "/experiences/place-6",
+        path: "/experiences/deshpande-auditorium",
         element: <ContentPage id={6} />,
       },
       {
-        path: "/experiences/place-7",
+        path: "/experiences/baba-ka-dhaba",
         element: <ContentPage id={7} />,
       },
     ],
