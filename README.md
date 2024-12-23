@@ -1,8 +1,7 @@
-# React + Vite
+Experiences is a website which aims to provide insights to a place or an organisation. Currently designed for BIT Sindri, an educational institution in Jharkhand, India, it showcases the most prominently visited locations at the college and along with that, it also has seperate pages for each place which contains images, short description and Google Map link of the place. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The website is furnished with beautiful UI/UX to enhace usability for visitors and provides a warm experience to influence positive thoughts about the place in the viewer's mind.
 
-Currently, two official plugins are available:
+Live link : https://aadarshagarwal1.github.io/experiences/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Thanks for visiting.
